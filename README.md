@@ -3,6 +3,24 @@ A comprehensive reading list for papers related to **Emotion Recognition in Conv
 
 The initial version forked from  [declare-lab/awesome-emotion-recognition-in-conversations](https://github.com/declare-lab/awesome-emotion-recognition-in-conversations).
 
+
+
+### Contents
+
+- [What is ERC?](#what-is-erc?)
+- [1.Overviews](#1-overviews)
+- [**2.Data Resources**](#2-data-resources)
+- [**3.Emotion Recognition in Conversations (ERC)**](#3-emotion-recognition-in-conversations-erc)
+- [**4.Emotional Support Conversation (ESC)**](#4-emotional-support-conversation-esc)
+- [5.Contextual Sentiment Analysis](#5-contextual-sentiment-analysis)
+- [6.Contextual Sarcasm Analysis](#6-contextual-sarcasm-analysis)
+- [7.Others](#7-others)
+- [8.Workshops and Shared Tasks](#8-workshops-and-shared-tasks)
+
+
+
+
+
 ## What is ERC?
 
 ERC is a task that aims at predicting emotion of each utterance in a conversation. The following is an excerpt of a conversation with each utterance tagged with corresponding emotion and sentiment label:
@@ -10,13 +28,12 @@ ERC is a task that aims at predicting emotion of each utterance in a conversatio
 <p align="center">
   <img width="800" src="example.jpg">
 </p>
-
-## Overviews
+## 1. Overviews
 
 - [Beneath the Tip of the Iceberg: Current Challenges and New Directions in Sentiment Analysis Research](https://ieeexplore.ieee.org/document/9260964), IEEE Transactions on Affective Computing 2020
 - [Emotion Recognition in Conversation: Research Challenges, Datasets, and Recent Advances](https://ieeexplore.ieee.org/document/8764449), IEEE Access 2019
 
-## Data Resources
+## 2. Data Resources
 
 1. [M3ED: Multi-modal Multi-scene Multi-label Emotional Dialogue Database](https://aclanthology.org/2022.acl-long.391/), ACL 2022, [[code](https://github.com/AIM3-RUC/RUCM3ED)]
 2. [MEISD: A Multimodal Multi-Label Emotion, Intensity and Sentiment Dialogue Dataset for Emotion Recognition and Sentiment Analysis in Conversations](https://www.aclweb.org/anthology/2020.coling-main.393.pdf), COLING 2020
@@ -32,7 +49,7 @@ ERC is a task that aims at predicting emotion of each utterance in a conversatio
 12. [The semaine database: Annotated multimodal records of emotionally colored conversations between a person and a limited agent](https://semaine-db.eu), IEEE Transactions on Affective Computing 2012
 13. [IEMOCAP: Interactive emotional dyadic motion capture database](https://sail.usc.edu/iemocap/), JLRE 2008
 
-## Emotion Recognition in Conversations (ERC)
+## 3. Emotion Recognition in Conversations (ERC)
 
 1. [CoMPM: Context Modeling with Speaker’s Pre-trained Memory Tracking for Emotion Recognition in Conversation](https://aclanthology.org/2022.naacl-main.416/), NAACL 2022, [[code](https://github.com/rungjoo/CoMPM)]
 2. [Speaker-Guided Encoder-Decoder Framework for Emotion Recognition in Conversation](https://www.ijcai.org/proceedings/2022/562), IJCAI 2022
@@ -63,7 +80,7 @@ ERC is a task that aims at predicting emotion of each utterance in a conversatio
 27. [Real-Time Emotion Recognition via Attention Gated Hierarchical Memory Network](https://arxiv.org/pdf/1911.09075.pdf), AAAI 2020
 28. [Adapted Dynamic Memory Network for Emotion Recognition in Conversation](https://ieeexplore.ieee.org/abstract/document/9128015), IEEE Transactions on Affective Computing 2020
 29. [Different Contextual Window Sizes Based RNNs for Multimodal Emotion Detection
-   in Interactive Conversations](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9127905), IEEE Access 2020 
+      in Interactive Conversations](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9127905), IEEE Access 2020 
 30. [Domain adversarial learning for emotion recognition](https://arxiv.org/pdf/1910.13807.pdf), Arxiv 2020
 31. [Towards Emotion-aided Multi-modal Dialogue Act Classification](https://www.aclweb.org/anthology/2020.acl-main.402.pdf), ACL 2020
 32. [A Self-Attentive Emotion Recognition Network](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9054762), ICASSP 2020
@@ -105,7 +122,7 @@ ERC is a task that aims at predicting emotion of each utterance in a conversatio
 68. [ICON: Interactive Conversational Memory Network for Multimodal Emotion Detection](https://www.aclweb.org/anthology/D18-1280.pdf), EMNLP 2018
 69. [Conversational Memory Network for Emotion Recognition in Dyadic Dialogue Videos](https://www.aclweb.org/anthology/N18-1193.pdf), NAACL 2018
 
-## Emotional Support Conversation (ESC)
+## 4. Emotional Support Conversation (ESC)
 
 1. [Control Globally, Understand Locally: A Global-to-Local Hierarchical Graph Network for Emotional Support Conversation](https://arxiv.org/abs/2204.12749), IJCAI 2022
 2. [MISC: A Mixed Strategy-Aware Model integrating COMET for Emotional Support Conversation](https://aclanthology.org/2022.acl-long.25/), ACL 2022, [[code](https://github.com/morecry/MISC)]
@@ -119,7 +136,7 @@ ERC is a task that aims at predicting emotion of each utterance in a conversatio
 
 
 
-## Contextual Sentiment Analysis
+## 5. Contextual Sentiment Analysis
 
 - [Sentiment Forecasting in Dialog](https://www.aclweb.org/anthology/2020.coling-main.221.pdf), COLING 2020
 - [DCR-Net: A Deep Co-Interactive Relation Network for Joint Dialog Act Recognition and Sentiment Classification](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-QinL.5400.pdf), AAAI 2020
@@ -128,7 +145,7 @@ ERC is a task that aims at predicting emotion of each utterance in a conversatio
 - [Quantum-Inspired DMATT-BiGRU for Conversational Sentiment Analysis](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8995180), ICTAI 2019
 
 
-## Contexutal Sarcasm Analysis
+## 6. Contextual Sarcasm Analysis
 
 - [Reactive Supervision: A New Method for Collecting Sarcasm Data](https://www.aclweb.org/anthology/2020.emnlp-main.201.pdf), EMNLP 2020
 - [Sarcasm Detection Using an Ensemble Approach](https://www.aclweb.org/anthology/2020.figlang-1.36.pdf), FigLang, ACL 2020
@@ -143,13 +160,13 @@ ERC is a task that aims at predicting emotion of each utterance in a conversatio
 - [Detecting Sarcasm in Conversation Context Using Transformer-Based Models](https://www.aclweb.org/anthology/2020.figlang-1.15.pdf), FigLang, ACL 2020
 - [MUStARD: Towards Multimodal Sarcasm Detection (An Obviously Perfect Paper)](https://www.aclweb.org/anthology/P19-1455.pdf), ACL 2019
 
-## Others
+## 7. Others
 
 - [Smile Intensity Detection in Multiparty Interaction using Deep Learning](http://www.cristinasegalin.com/research/papers/ACII19.pdf), ACII 2019
 
 
 
-## Workshops and Shared Tasks
+## 8. Workshops and Shared Tasks
 
 - [Second Grand-Challenge and Workshop on Multimodal Language (Challenge-HML)](https://www.aclweb.org/anthology/volumes/2020.challengehml-1/), ACL 2020
 - [The Second Workshop on Figurative Language Processing](https://sites.google.com/view/figlang2020/), ACL 2020
